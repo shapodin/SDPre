@@ -17,8 +17,10 @@ public class Objective4Lab2 {
     double dub2 = keyboard.nextDouble();
     System.out.println("Please enter the third decimal number you would like to add.");
     double dub3 = keyboard.nextDouble();
-    int num4 = num1+num2+num3;
-    System.out.println("The sum of ");
+    int sum1 = num1+num2+num3;
+    double sum2 = dub1+dub2+dub3;
+    System.out.println("The sum of " +num1+" + "+num2+" + "+num3+" = "+sum1);
+    System.out.println("The sum of " +dub1+" + "+dub2+" + "+dub3+" = "+sum2);
     //TODO prompt the user to get input for all of the above int variables.
 
     //TODO prompt the user to get input for all of the above double variables.
